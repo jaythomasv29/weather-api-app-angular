@@ -11,6 +11,7 @@ export class WeatherService {
 apiKey = ''
 url;
 // LEFT OFF AT 14 MIN
+// https://www.youtube.com/watch?v=f7w5c6IlmaA
 // api.openweathermap.org/data/2.5/weather?q={city name}
 // api.openweathermap.org/data/2.5/weather?q=London
   constructor(private http: HttpClient) {
