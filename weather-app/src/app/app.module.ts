@@ -13,7 +13,10 @@ const appRoutes = [
   },
   {
     path: 'setting', component: SettingComponent
-  } 
+  },
+  {
+    path: 'home', component: HomeComponent
+  }
 ]
 @NgModule({
   declarations: [
